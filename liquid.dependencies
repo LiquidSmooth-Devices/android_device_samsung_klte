@@ -1,0 +1,69 @@
+[
+  {
+    "remote": "lsd",
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "lsd",
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "lsd",
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "lsd",
+    "repository": "android_device_samsung_klte-common",
+    "target_path": "device/samsung/klte-common",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "ls",
+    "repository": "android_hardware_qcom_display-caf-new",
+    "target_path": "hardware/qcom/display-caf-new",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "ls",
+    "repository": "android_hardware_qcom_media-caf-new",
+    "target_path": "hardware/qcom/media-caf-new",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "ls",
+    "repository": "android_hardware_qcom_audio-caf",
+    "target_path": "hardware/qcom/audio-caf",
+    "revision": "kitkat"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_device_samsung_msm8974-common",
+    "target_path": "device/samsung/msm8974-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_kernel_samsung_klte",
+    "target_path": "kernel/samsung/klte",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "ls",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision": "cm-11.0"
+  }
+]
+
