@@ -22,6 +22,9 @@ $(call inherit-product-if-exists, vendor/samsung/klte/klte-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# F2FS Include format-system
+PRODUCT_COPY_FILES += device/samsung/klte/format-system.sh:system/extras/format-system.sh
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
