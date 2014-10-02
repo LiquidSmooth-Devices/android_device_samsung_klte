@@ -54,10 +54,10 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "cm",
+    "remote": "lsd",
     "repository": "android_kernel_samsung_klte",
     "target_path": "kernel/samsung/klte",
-    "revision": "cm-11.0"
+    "revision": "kitkat"
   },
   {
     "remote": "ls",
