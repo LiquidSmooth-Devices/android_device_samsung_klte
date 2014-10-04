@@ -19,13 +19,12 @@ TARGET_OTA_ASSERT_DEVICE := kltexx,kltelra,kltetmo,kltecan,klteatt,kltedv,klteub
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8974pro_sec_klte_eur_defconfig
-GET_KERNEL_GCC_VERSION=4.10-sm
+TARGET_GCC_VERSION_ARM := 4.10-sm
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/klte/init/init_klte.c
 TARGET_UNIFIED_DEVICE := true
-
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
