@@ -33,5 +33,11 @@ BOARD_NFC_CHIPSET := pn547
 # Radio
 BOARD_RIL_CLASS := ../../../device/samsung/klte/ril
 
+# Partitions 
+BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 15728640
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3145728000
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 11334041088
+
 # inherit from the proprietary version
 -include vendor/samsung/klte/BoardConfigVendor.mk
