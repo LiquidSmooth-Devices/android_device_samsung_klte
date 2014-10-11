@@ -15,6 +15,7 @@
 # inherit from common klte
 -include device/samsung/klte-common/BoardConfigCommon.mk
 
+# Supported Device
 TARGET_OTA_ASSERT_DEVICE := kltexx,kltelra,kltetmo,kltecan,klteatt,kltedv,klteub,klteacg,klte
 
 # Kernel
@@ -28,14 +29,6 @@ TARGET_UNIFIED_DEVICE := true
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
-
-# Partitions
-BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 15728640
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3145728000
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 11334041088
-TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
 
 # Radio
 BOARD_RIL_CLASS := ../../../device/samsung/klte/ril
