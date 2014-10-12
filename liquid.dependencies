@@ -54,10 +54,10 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "gh",
-    "repository": "ktoonsez/KTSGS5",
+    "remote": "lsd",
+    "repository": "android_kernel_samsung_klte",
     "target_path": "kernel/samsung/klte",
-    "revision": "aosp4.4"
+    "revision": "kitkat"
   },
   {
     "remote": "gh",
